@@ -3,8 +3,10 @@ class Papagei {
         System.out.println("Hallo");
     }
     void sagAlter(){
-        int alter = 5;
-        System.out.println("Hallo, ich bin " + alter + " Jahre alt.");
+        System.out.println("Hallo, ich bin " + getAlter() + " Jahre alt.");
+    }
+    int getAlter(){
+      return 5;
     }
 }
 
